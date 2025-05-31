@@ -56,18 +56,13 @@ bookmarks.sh help                         # Show help message
 
 ## Installation
 
-**Option 1: Direct Download**
+**Option 1: Clone repository**
 ```bash
 git clone https://github.com/derion1/bookcli/
+cd bookcli
 chmod +x bookmarks.sh
 ```
 
-**Option 2: Clone Repository**
-```bash
-git clone https://github.com/user/repo.git
-cd repo
-chmod +x bookmarks.sh
-```
 
 **Optional: Create Alias**
 ```bash
