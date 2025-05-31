@@ -30,12 +30,12 @@ chmod +x bookmarks.sh
 ## Usage
 
 ```
-bookmarks.sh add <url> [title] [tags]     # Add a new bookmark
-bookmarks.sh list                         # List all bookmarks  
-bookmarks.sh search <query>               # Search bookmarks
-bookmarks.sh delete <line_number>         # Delete a bookmark
-bookmarks.sh open <line_number>           # Open bookmark in browser
-bookmarks.sh help                         # Show help message
+./bookmarks.sh add <url> [title] [tags]     # Add a new bookmark
+./bookmarks.sh list                         # List all bookmarks  
+./bookmarks.sh search <query>               # Search bookmarks
+./bookmarks.sh delete <line_number>         # Delete a bookmark
+./bookmarks.sh open <line_number>           # Open bookmark in browser
+./bookmarks.sh help                         # Show help message
 ```
 
 ## Examples
