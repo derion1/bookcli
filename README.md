@@ -1,4 +1,4 @@
-# 📚 Bookmark Manager
+# 📚 BookCLI - Bookmark Manager
 
 A lightweight, terminal-based bookmark manager for developers and power users who prefer the command line. Store, organize, and access your bookmarks without leaving your terminal.
 
