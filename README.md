@@ -56,7 +56,7 @@ bookmarks.sh help                         # Show help message
 
 ## Installation
 
-**Option 1: Clone repository**
+**Clone repository**
 ```bash
 git clone https://github.com/derion1/bookcli/
 cd bookcli
