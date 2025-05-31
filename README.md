@@ -2,7 +2,7 @@
 
 A lightweight, terminal-based bookmark manager for developers and power users who prefer the command line. Store, organize, and access your bookmarks without leaving your terminal.
 
-## ✨ Features
+## Features
 
 - **Simple Storage** - All bookmarks stored in a plain text file (`bookmarks.txt`)
 - **Fast Search** - Quickly find bookmarks by title, URL, or tags
@@ -11,7 +11,7 @@ A lightweight, terminal-based bookmark manager for developers and power users wh
 - **Tag Support** - Organize bookmarks with custom tags
 - **No Dependencies** - Pure bash script, works on any Unix-like system
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Make executable
@@ -27,7 +27,7 @@ chmod +x bookmarks.sh
 ./bookmarks.sh search github
 ```
 
-## 📋 Usage
+## Usage
 
 ```
 bookmarks.sh add <url> [title] [tags]     # Add a new bookmark
@@ -38,7 +38,7 @@ bookmarks.sh open <line_number>           # Open bookmark in browser
 bookmarks.sh help                         # Show help message
 ```
 
-## 💡 Examples
+## Examples
 
 ```bash
 # Add bookmarks with different levels of detail
@@ -54,7 +54,7 @@ bookmarks.sh help                         # Show help message
 ./bookmarks.sh open 1    # Opens first bookmark in browser
 ```
 
-## 🛠️ Installation
+## Installation
 
 **Option 1: Direct Download**
 ```bash
@@ -76,7 +76,7 @@ source ~/.bashrc
 # Now use: bm add https://example.com
 ```
 
-## 📁 File Format
+## File Format
 
 Bookmarks are stored in `bookmarks.txt` with pipe-separated values:
 ```
@@ -84,7 +84,7 @@ Bookmarks are stored in `bookmarks.txt` with pipe-separated values:
 2024-05-31 10:31:22|https://stackoverflow.com|Stack Overflow|reference,dev
 ```
 
-## 🎨 Screenshot
+## Screenshot
 
 ```
 📚 Your Bookmarks
@@ -101,13 +101,13 @@ Bookmarks are stored in `bookmarks.txt` with pipe-separated values:
     Tags: reference,dev
 ```
 
-## 🔧 Requirements
+## Requirements
 
 - Bash 4.0+
 - Unix-like system (Linux, macOS, WSL)
 - `xdg-open`, `open`, or `firefox` for browser integration (optional)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Feel free to:
 - Report bugs
@@ -115,7 +115,7 @@ Contributions welcome! Feel free to:
 - Submit pull requests
 - Improve documentation
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
