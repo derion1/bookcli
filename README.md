@@ -58,7 +58,7 @@ bookmarks.sh help                         # Show help message
 
 **Option 1: Direct Download**
 ```bash
-curl -O https://raw.githubusercontent.com/user/repo/main/bookmarks.sh
+curl -O https://github.com/derion1/bookcli/blob/main/bookmarks.sh
 chmod +x bookmarks.sh
 ```
 
